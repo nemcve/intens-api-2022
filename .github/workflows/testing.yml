@@ -1,0 +1,23 @@
+name: Java testing with Maven
+on:
+
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Java environment
+      uses: actions/setup-java@v3
+      with:
+        java-version: 'temurin'
+        distribution: '17'
+        cache: maven
+    - name: Test with Maven
+      run: mvn test
+
+
