@@ -32,7 +32,7 @@ jobs:
     - name: Connect to EC2, pull from DockerHub, and run
       uses: appleboy/ssh-action@master
       with:
-        host: ec2-174-129-114-30.compute-1.amazonaws.com
+        host: ec2-44-203-75-157.compute-1.amazonaws.com
         username: ec2-user
         key: ${{secrets.AWS_SECRET_KEY}}
         command_timeout: 20s
