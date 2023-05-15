@@ -1,5 +1,5 @@
 # Intens Api DevOps
-URL: http://ec2-3-83-44-33.compute-1.amazonaws.com:8080
+URL: http://ec2-3-83-44-33.compute-1.amazonaws.com:8080 <br>
 Uputstvo za izradu.
 
 ## Koraci
