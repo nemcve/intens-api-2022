@@ -1,4 +1,5 @@
 # Intens Api DevOps
+URL: http://ec2-3-83-44-33.compute-1.amazonaws.com:8080
 Uputstvo za izradu.
 
 ## Koraci
@@ -17,4 +18,4 @@ https://docs.github.com/en/actions/automating-builds-and-tests/building-and-test
 2. Eclipse / IntelliJ / Alat po izboru
 3. Docker https://www.docker.com/products/docker-desktop
 
-URL: http://ec2-3-83-44-33.compute-1.amazonaws.com:8080
+
