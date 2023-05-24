@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/intens-api-2022-task",
+          "awslogs-group": "/ecs/intens-api-2023-task",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -64,8 +64,8 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:721523597859:task-definition/intens-api-2022-task:1",
-  "family": "intens-api-2022-task",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-1:721523597859:task-definition/intens-api-2023-task:1",
+  "family": "intens-api-2023-task",
   "requiresAttributes": [
     {
       "targetId": null,
