@@ -51,7 +51,9 @@ jobs:
           service: intens-api-2023-service
           cluster: intens-api-2022-cluster
           wait-for-service-stability: true
-          
+      - name: Start application with Docker
+        run: |
+          docker run -p 80:8080
         
         
           
