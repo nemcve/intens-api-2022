@@ -51,13 +51,6 @@ jobs:
           service: intens-api-2023-service
           cluster: intens-api-2022-cluster
           wait-for-service-stability: true
-      - name: Start application with Docker
-        env:
-          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          ECR_REPOSITORY: intens-api-2022
-          IMAGE_TAG: latest
-        run: |
-          docker run -p 8080:8080 $ECR_REPOSITORY:$IMAGE_TAG
         
         
           
